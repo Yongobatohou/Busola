@@ -27,11 +27,11 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://busola.onrender.com"]
-
 CSRF_TRUSTED_ORIGINS = [
     "https://busola.onrender.com",
 ]
+
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
