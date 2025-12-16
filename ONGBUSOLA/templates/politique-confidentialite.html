@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Page Header -->
+    <div class="container-fluid bg-primary py-5 mb-5">
+        <div class="container text-center">
+            <h1 class="display-5 text-white">Politique de Confidentialité</h1>
+            <p class="text-white">BUSOLA ONG - Votre vie privée est notre priorité</p>
+        </div>
+    </div>
+   
+
+
+<!-- Politique de Confidentialité - Solidarité Monde -->
+<section class="privacy-policy py-5">
+  <div class="container">
+
+    <!-- Introduction -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-info-circle display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Introduction</h2>
+        <p>La protection de vos données personnelles est une priorité pour <strong>Solidarité Monde</strong>. 
+        Cette politique de confidentialité vous informe sur la manière dont nous collectons, utilisons et protégeons vos informations lorsque vous visitez notre site web.</p>
+      </div>
+    </div>
+
+    <!-- Données collectées -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-person-lines-fill display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Données collectées</h2>
+        <ul>
+          <li><strong>Informations personnelles :</strong> nom, prénom, e-mail, téléphone (lors des dons ou inscriptions à la newsletter).</li>
+          <li><strong>Informations de navigation :</strong> adresse IP, type de navigateur, pages visitées, durée de navigation.</li>
+          <li><strong>Informations de paiement :</strong> données nécessaires pour traiter vos dons en ligne.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Finalité de la collecte -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-check2-square display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Finalité de la collecte</h2>
+        <ul>
+          <li>Traiter vos dons et envoyer vos reçus fiscaux.</li>
+          <li>Vous informer sur nos actions, événements et campagnes.</li>
+          <li>Améliorer notre site et nos services.</li>
+          <li>Respecter nos obligations légales et réglementaires.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Partage des données -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-share-fill display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Partage des données</h2>
+        <p>Vos données ne seront jamais vendues. Elles peuvent être partagées uniquement avec :</p>
+        <ul>
+          <li>Nos prestataires de paiement (Stripe, PayPal, Mobile Money).</li>
+          <li>Nos partenaires techniques pour la maintenance du site.</li>
+          <li>Les autorités légales si la loi l’exige.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Cookies -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-cpu-fill display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Cookies et technologies similaires</h2>
+        <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site, mesurer l’audience et personnaliser nos communications. 
+        Vous pouvez gérer vos préférences dans votre navigateur.</p>
+      </div>
+    </div>
+
+    <!-- Sécurité -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-shield-lock-fill display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Sécurité des données</h2>
+        <p>Nous mettons en place des mesures techniques et organisationnelles pour protéger vos données contre tout accès non autorisé, modification, divulgation ou destruction.</p>
+      </div>
+    </div>
+
+    <!-- Conservation -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-clock-history display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Conservation des données</h2>
+        <p>Les données personnelles sont conservées uniquement le temps nécessaire aux finalités pour lesquelles elles ont été collectées, conformément à la loi.</p>
+      </div>
+    </div>
+
+    <!-- Droits des utilisateurs -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-person-check-fill display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Droits des utilisateurs</h2>
+        <p>Vous pouvez exercer vos droits :</p>
+        <ul>
+          <li>Accéder à vos données et demander leur modification.</li>
+          <li>Demander la suppression ou la limitation du traitement.</li>
+          <li>Retirer votre consentement pour les communications marketing.</li>
+        </ul>
+        <p>Pour exercer vos droits, contactez-nous à : <a href="mailto:contact@solidaritemonde.org">contact@solidaritemonde.org</a></p>
+      </div>
+    </div>
+
+    <!-- Modifications de la politique -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-1 text-center">
+        <i class="bi bi-pencil-square display-4 text-primary"></i>
+      </div>
+      <div class="col-md-11">
+        <h2>Modification de la politique</h2>
+        <p>Cette politique peut être mise à jour périodiquement. La version la plus récente sera toujours disponible sur notre site.</p>
+      </div>
+    </div>
+
+    <!-- Bouton Contact -->
+    <div class="text-center mt-5">
+      <a href="{% url 'contact' %}" class="btn btn-primary btn-lg">Contactez-nous</a>
+    </div>
+
+  </div>
+</section>
+
+    {% endblock %}

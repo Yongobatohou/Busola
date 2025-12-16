@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Page Header -->
+    <div class="container-fluid bg-primary py-5 mb-5">
+        <div class="container text-center">
+            <h1 class="display-5 text-white">Mentions Légales</h1>
+            <p class="text-white">Solidarité Enfants & Avenir (SEA)</p>
+        </div>
+    </div>
+
+    <!-- Content Start -->
+<div class="container py-5">
+    <div class="wow fadeIn" data-wow-delay="0.2s">
+
+        <!-- 1. Présentation de l’ONG -->
+        <div class="row align-items-start mb-5 p-3 rounded shadow-sm bg-white">
+            <div class="col-md-1 text-center">
+                <div class="icon-circle bg-primary text-white shadow-lg mb-2">
+                    <i class="bi bi-people-fill display-5"></i>
+                </div>
+            </div>
+            <div class="col-md-11">
+                <h3>1. Présentation de l’ONG</h3>
+                <p>BUSOLA EST UNE ORGANISATION NON GOUVERNEMENTALE (ONG) DE DEVELOPPEMENT A VOCATION
+                    HUMANITAIRE DOTEE D’UNE PERSONNALITE JURIDIQUE ET D’UNE AUTONOMIE DE GESTION. ELLE EST
+                    DEPUIS SA CREATION L’INSTRUMENT DE DEVELOPPEMENT ET D’ASSISTANCE SOCIALE. </p>
+                <p><i class="bi bi-geo-alt-fill me-2"></i> <strong>Adresse :</strong> Qtier Arafat, non loin de Marie rose, Parakou, République du Bénin</p>
+                <p><i class="bi bi-envelope-fill me-2"></i> <strong>Email :</strong> ongbusola@gmail.com</p>
+                <p><i class="bi bi-telephone-fill me-2"></i> <strong>Téléphone :</strong> +229 01 90 44 46 90</p>
+                <p><i class="bi bi-person-badge-fill me-2"></i> <strong>Responsable de publication :</strong> M. Fadel KASSALI</p>
+            </div>
+        </div>
+
+        <!-- 2. Hébergement du site -->
+        <div class="row align-items-start mb-5 p-3 rounded shadow-sm bg-white">
+            <div class="col-md-1 text-center">
+                <div class="icon-circle bg-primary text-white shadow-lg mb-2">
+                    <i class="bi bi-server-fill display-5"></i>
+                </div>
+            </div>
+            <div class="col-md-11">
+                <h3>2. Hébergement du site</h3>
+                <p><strong>HostCloud International</strong><br>125 Avenue du Progrès, Paris, France</p>
+            </div>
+        </div>
+
+        <!-- 3. Propriété intellectuelle -->
+        <div class="row align-items-start mb-5 p-3 rounded shadow-sm bg-white">
+            <div class="col-md-1 text-center">
+                <div class="icon-circle bg-primary text-white shadow-lg mb-2">
+                    <i class="bi bi-file-earmark-lock-fill display-5"></i>
+                </div>
+            </div>
+            <div class="col-md-11">
+                <h3>3. Propriété intellectuelle</h3>
+                <p>Tout le contenu du site (textes, images, logos, vidéos) est la propriété exclusive de BUSOLA ONG, sauf mention contraire.</p>
+            </div>
+        </div>
+
+        <!-- 4. Limitation de responsabilité -->
+        <div class="row align-items-start mb-5 p-3 rounded shadow-sm bg-white">
+            <div class="col-md-1 text-center">
+                <div class="icon-circle bg-primary text-white shadow-lg mb-2">
+                    <i class="bi bi-exclamation-triangle-fill display-5"></i>
+                </div>
+            </div>
+            <div class="col-md-11">
+                <h3>4. Limitation de responsabilité</h3>
+                <p>L’ONG ne saurait être tenue responsable des interruptions du site ou de tout dommage lié à l'utilisation du site.</p>
+            </div>
+        </div>
+
+        <!-- 5. Liens externes -->
+        <div class="row align-items-start mb-5 p-3 rounded shadow-sm bg-white">
+            <div class="col-md-1 text-center">
+                <div class="icon-circle bg-primary text-white shadow-lg mb-2">
+                    <i class="bi bi-link-45deg display-5"></i>
+                </div>
+            </div>
+            <div class="col-md-11">
+                <h3>5. Liens externes</h3>
+                <p>Le site peut contenir des liens externes. BUSOLA ONG n’est pas responsable du contenu des sites tiers.</p>
+            </div>
+        </div>
+
+        <!-- 6. Contact -->
+        <div class="row align-items-start mb-5 p-3 rounded shadow-sm bg-white">
+            <div class="col-md-1 text-center">
+                <div class="icon-circle bg-primary text-white shadow-lg mb-2">
+                    <i class="bi bi-envelope-open-fill display-5"></i>
+                </div>
+            </div>
+            <div class="col-md-11">
+                <h3>6. Contact</h3>
+                <p>Pour toute demande concernant ces mentions : <br><i class="bi bi-envelope-fill me-2"></i> contact@solidarite-enfants.org</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Styles supplémentaires -->
+<style>
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.hover-shadow:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+    transition: all 0.3s ease-in-out;
+}
+</style>
+
+    <!-- Content End -->
+
+{% endblock %}
