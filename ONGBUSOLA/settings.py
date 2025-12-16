@@ -29,6 +29,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["https://busola.onrender.com"]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://busola.onrender.com",
+]
+
 
 # Application definition
 
